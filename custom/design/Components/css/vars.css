@@ -1,0 +1,10 @@
+:root {
+  --transform-delay: 300ms;
+  --side-space: 20%;
+  --side-space-mobile: 1em;
+  --design-color: darkorange;
+  --design-color-highlight: orange;
+}
+
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
+@custom-media --mobile (width <= 30em);

@@ -1,0 +1,74 @@
+@import "../css/vars.css";
+
+body {
+  line-height: 1.8em;
+  letter-spacing: .015em;
+  font-weight: 300;
+  font-size: 1.15em;
+  font-style: normal;
+  background-color: var(--white);
+}
+
+.jazzkitchen-main {
+  margin: 0 var(--side-space);
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+  }
+
+  h4, h5, h6 {
+    font-weight: 400;
+  }
+
+  a:visited, a {
+    color: var(--grey600);
+    transition: color ease 200ms;
+    text-decoration: underline;
+
+    &:hover, &:active {
+      color: var(--grey800);
+    }
+  }
+
+  code, pre {
+    font-family: monospace;
+    background-color: var(--grey300);
+    color: var(--grey800);
+    border-radius: 0.3em;
+    padding: 0.4em;
+    margin: 1em;
+  }
+
+  code {
+    padding: 0.3em 0.6em;
+    margin: .3em;
+  }
+
+  pre > code {
+    display: block;
+    white-space: pre;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.editable-area {
+  .heading-box {
+    margin: 12px;
+
+    .heading-box-heading {
+      background-color: darkorange;
+      color: white;
+    }
+
+    .heading-box-content {
+      background-color: white;
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, li, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.jazzkitchen {
+  background: no-repeat fixed center;
+  background-size: cover;
+}

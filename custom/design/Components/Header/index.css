@@ -1,0 +1,66 @@
+@import "../css/vars.css";
+
+.jazzkitchen {
+  .jazzkitchen-header {
+    margin-bottom: 2em;
+
+    .jazzkitchen-header-content {
+      text-align: center;
+      padding: 0 var(--side-space);
+      color: white;
+      text-shadow: 2px 2px black;
+
+      .ory-plugins-content-slate-paragraph-placeholder {
+        color: white;
+      }
+    }
+
+    nav {
+      user-select: none;
+      transition: all ease var(--transform-delay);
+      background-color: rgba(0, 0, 0, 0.5);
+
+      .jazzkitchen-nav-inner {
+        ul {
+          display: flex;
+          justify-content: flex-start;
+          margin: 0 var(--side-space);
+
+          li {
+            display: inline;
+            margin: 0 0.1em;
+
+            a {
+              color: white;
+              text-decoration: none;
+              transition: all var(--transform-delay);
+              padding: 1em;
+              cursor: pointer;
+              display: inline-block;
+
+              &:hover {
+                font-weight: 400;
+                background-color: var(--design-color-highlight);
+              }
+            }
+
+            a.active, &:first-child a {
+              background-color: var(--design-color);
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (--mobile) {
+    .jazzkitchen-header-content {
+      padding: 0 var(--side-space-mobile);
+    }
+
+    .jazzkitchen-nav-inner ul {
+      margin: 0 var(--side-space-mobile)
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "./Components/Template/index.css";
+@import "./Components/Main/index.css";
+@import "./Components/Header/index.css";
+@import "./Components/Footer/index.css";
+@import "./Components/css/vars.css";
+@import "./plugins/headingBox/index.css";
+@import "./node_modules/ory-editor-plugins-divider/src/index.css";
+@import "./node_modules/ory-editor-plugins-image/src/index.css";
+@import "./node_modules/ory-editor-plugins-video/src/index.css";
+@import "./node_modules/ory-editor-plugins-spacer/src/index.css";
+@import "./node_modules/ory-editor-plugins-slate/src/index.css";
