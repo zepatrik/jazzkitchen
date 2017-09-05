@@ -72,3 +72,9 @@ body {
     }
   }
 }
+
+@media (max-width: 30rem) {
+  .jazzkitchen-main {
+    margin: 0;
+  }
+}

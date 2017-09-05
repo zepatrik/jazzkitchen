@@ -6,7 +6,20 @@ p, li, body {
   font-family: 'Roboto', sans-serif;
 }
 
-.jazzkitchen {
-  background: no-repeat fixed center;
-  background-size: cover;
+.jazzkitchen-bg {
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  .image-gallery-image {
+    background: no-repeat fixed center;
+    background-size: cover;
+  }
+
+  div {
+    height: 100%;
+  }
 }

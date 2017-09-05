@@ -9,15 +9,12 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "css-loader": "^0.28.1",
-    "ory-editor-plugins-divider": "^0.2.12",
-    "ory-editor-plugins-image": "^0.2.12",
-    "ory-editor-plugins-slate": "^0.2.12",
-    "ory-editor-plugins-spacer": "^0.2.12",
-    "ory-editor-plugins-video": "^0.2.12",
+    "material-ui": "^0.19.0",
     "ory-editor-ui": "^0.2.10",
+    "react": "latest",
+    "react-image-gallery": "^0.8.3",
     "react-sticky": "^6.0.1",
     "style-loader": "^0.17.0",
-    "react": "latest",
     "uuid": "latest"
   }
 }

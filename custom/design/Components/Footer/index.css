@@ -2,37 +2,19 @@
 
 .jazzkitchen-footer {
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 2em var(--side-space) 0;
+  margin: 3em 0 0;
 
   .jazzkitchen-footer-inner {
     color: var(--grey100);
-    padding: 1em;
+    padding: 2em var(--side-space);
   }
 
   a:visited, a {
     text-decoration: none;
-    color: var(--strongWhite);
+    color: white;
     transition: color 200ms ease;
     &:hover, &:active {
       color: white;
-    }
-  }
-
-  .vipin-footer-nav{
-    text-align: center;
-    margin-bottom: 36px;
-  }
-
-  .vipin-footer-static {
-    code, pre {
-      font-family: monospace;
-      background-color: var(--grey300);
-      color: var(--blueGrey700);
-      border-radius: 0.3em;
-      padding: 0.4em;
-      display: block;
-      margin: 1em;
-      white-space: pre;
     }
   }
 }

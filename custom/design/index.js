@@ -1,14 +1,13 @@
 // @flow
 import './index.css'
 import Template from './Components/Template'
-const corePlugins = require('ory-sites-plugins')
-//const gallery = require('ory-sites-plugins/gallery')
+const allPlugins = require('ory-sites-plugins')
 import headingBox from './plugins/headingBox'
 
 const menus = ['main', 'footer']
 
 const plugins = [
-  ...corePlugins.all(),
+  ...Object.values(allPlugins.plugins),
   headingBox
 ]
 

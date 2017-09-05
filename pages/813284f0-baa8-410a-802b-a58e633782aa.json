@@ -1,1 +1,304 @@
-{"id":"813284f0-baa8-410a-802b-a58e633782aa","url":"index.html","isDefault":true,"meta":{"description":""},"title":"Home","content":{"header":{"id":"ede3e385-2a7f-45b5-a0d6-a827dcd7d378","cells":[{"id":"f9ffd9ce-2b94-4b6d-8a1e-b8dc46fd745f","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/slate","version":"0.0.1"},"state":{"serialized":{"nodes":[{"kind":"block","type":"HEADINGS/HEADING-ONE","nodes":[{"kind":"text","text":"JazzKitchen Band"}]}]}}}}]},"main":{"id":"4d1f21d4-0304-408e-b278-b03904b09e24","cells":[{"id":"635708e5-ffb4-42e5-887f-fb4fb9d40760","inline":null,"size":6,"layout":{"plugin":{"name":"ory/editor/additional/layout/box","version":"0.0.1"},"state":{}},"rows":[{"id":"426cd8e4-2201-4b0b-9f7c-35480206aac3","cells":[{"id":"29781167-e861-400c-9e00-21e308af00ba","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/slate","version":"0.0.1"},"state":{"serialized":{"nodes":[{"kind":"block","type":"HEADINGS/HEADING-TWO","nodes":[{"kind":"text","text":"Video"}]}]}}}}]},{"id":"6a451a59-8d98-4151-8ade-0a87f907f413","cells":[{"id":"c9c22dd5-c0d4-424a-81c6-1cb2e7387029","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/video","version":"0.0.1"},"state":{"src":"https://youtu.be/cZ5CwBMb8Wk"}}}]}]},{"id":"d190a4f8-f186-4ca7-a134-409edb5da60f","inline":null,"size":6,"rows":[{"id":"4d2b04f2-aef0-4c24-bf31-1f9bef5c2480","cells":[{"id":"c4e03b39-381e-4e6e-8950-2352e6399b6b","inline":null,"size":12,"layout":{"plugin":{"name":"ory/editor/additional/layout/box","version":"0.0.1"},"state":{}},"rows":[{"id":"d4544341-4acf-4d3d-9545-a1240d5bcdad","cells":[{"id":"20871bce-366a-4120-b9fd-cf2370cb7989","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/slate","version":"0.0.1"},"state":{"serialized":{"nodes":[{"kind":"block","type":"HEADINGS/HEADING-TWO","nodes":[{"kind":"text","text":"Events"}]}]}}}}]},{"id":"d287341e-5e2f-49b0-8297-ccceb15245fe","cells":[{"id":"dfc377c0-1851-4e5b-965f-dde6e332ae0f","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/slate","version":"0.0.1"},"state":{"serialized":{"nodes":[{"kind":"block","type":"PARAGRAPH/PARAGRAPH","nodes":[{"kind":"text","text":"Some upcoming events"}]}]}}}}]}]}]},{"id":"d21b2e14-d6fc-499c-b1ea-6a5afe650cc4","cells":[{"id":"5889c309-fac0-460e-a651-37d70e568568","inline":null,"size":12,"layout":{"plugin":{"name":"ory/editor/additional/layout/box","version":"0.0.1"},"state":{}},"rows":[{"id":"736c34a8-80c2-48af-9fb9-d46d8a130d49","cells":[{"id":"f58523dc-95f1-425c-9285-f488b9170ea9","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/slate","version":"0.0.1"},"state":{"serialized":{"nodes":[{"kind":"block","type":"HEADINGS/HEADING-TWO","nodes":[{"kind":"text","text":"CDs"}]}]}}}}]},{"id":"6697d2ad-6b0a-41f0-8a1f-357ee31cec02","cells":[{"id":"1910594b-3b49-4abb-a964-c4e4c767da65","inline":null,"size":12,"content":{"plugin":{"name":"ory/editor/core/content/slate","version":"0.0.1"},"state":{"serialized":{"nodes":[{"kind":"block","type":"PARAGRAPH/PARAGRAPH","nodes":[{"kind":"text","text":"CD1"}]},{"kind":"block","type":"PARAGRAPH/PARAGRAPH","nodes":[{"kind":"text","text":"CD2"}]}]}}}}]}]}]}]}]}}}
+{
+  "id": "813284f0-baa8-410a-802b-a58e633782aa",
+  "url": "index.html",
+  "isDefault": true,
+  "meta": {
+    "description": ""
+  },
+  "design": {
+    "id": "",
+    "config": {
+      "ory-design-vipin": {
+        "headerBackgroundUrl": "JazzKitchen.png"
+      }
+    }
+  },
+  "title": "Home",
+  "content": {
+    "header": {
+      "id": "ede3e385-2a7f-45b5-a0d6-a827dcd7d378",
+      "cells": [
+        {
+          "id": "f9ffd9ce-2b94-4b6d-8a1e-b8dc46fd745f",
+          "inline": null,
+          "size": 12,
+          "content": {
+            "plugin": {
+              "name": "ory/editor/core/content/slate",
+              "version": "0.0.1"
+            },
+            "state": {
+              "serialized": {
+                "nodes": [
+                  {
+                    "kind": "block",
+                    "type": "HEADINGS/HEADING-ONE",
+                    "nodes": [
+                      {
+                        "kind": "text",
+                        "text": "Jazz Kitchen Band"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "main": {
+      "id": "4d1f21d4-0304-408e-b278-b03904b09e24",
+      "cells": [
+        {
+          "id": "635708e5-ffb4-42e5-887f-fb4fb9d40760",
+          "inline": null,
+          "size": 6,
+          "layout": {
+            "plugin": {
+              "name": "ory/editor/additional/layout/box",
+              "version": "0.0.1"
+            },
+            "state": {}
+          },
+          "rows": [
+            {
+              "id": "426cd8e4-2201-4b0b-9f7c-35480206aac3",
+              "cells": [
+                {
+                  "id": "29781167-e861-400c-9e00-21e308af00ba",
+                  "inline": null,
+                  "size": 12,
+                  "content": {
+                    "plugin": {
+                      "name": "ory/editor/core/content/slate",
+                      "version": "0.0.1"
+                    },
+                    "state": {
+                      "serialized": {
+                        "nodes": [
+                          {
+                            "kind": "block",
+                            "type": "HEADINGS/HEADING-TWO",
+                            "nodes": [
+                              {
+                                "kind": "text",
+                                "text": "Video"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "6a451a59-8d98-4151-8ade-0a87f907f413",
+              "cells": [
+                {
+                  "id": "c9c22dd5-c0d4-424a-81c6-1cb2e7387029",
+                  "inline": null,
+                  "size": 12,
+                  "content": {
+                    "plugin": {
+                      "name": "ory/editor/core/content/video",
+                      "version": "0.0.1"
+                    },
+                    "state": {
+                      "src": "https://youtu.be/cZ5CwBMb8Wk"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d190a4f8-f186-4ca7-a134-409edb5da60f",
+          "inline": null,
+          "size": 6,
+          "rows": [
+            {
+              "id": "4d2b04f2-aef0-4c24-bf31-1f9bef5c2480",
+              "cells": [
+                {
+                  "id": "c4e03b39-381e-4e6e-8950-2352e6399b6b",
+                  "inline": null,
+                  "size": 12,
+                  "layout": {
+                    "plugin": {
+                      "name": "ory/editor/additional/layout/box",
+                      "version": "0.0.1"
+                    },
+                    "state": {}
+                  },
+                  "rows": [
+                    {
+                      "id": "d4544341-4acf-4d3d-9545-a1240d5bcdad",
+                      "cells": [
+                        {
+                          "id": "20871bce-366a-4120-b9fd-cf2370cb7989",
+                          "inline": null,
+                          "size": 12,
+                          "content": {
+                            "plugin": {
+                              "name": "ory/editor/core/content/slate",
+                              "version": "0.0.1"
+                            },
+                            "state": {
+                              "serialized": {
+                                "nodes": [
+                                  {
+                                    "kind": "block",
+                                    "type": "HEADINGS/HEADING-TWO",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "Events"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "d287341e-5e2f-49b0-8297-ccceb15245fe",
+                      "cells": [
+                        {
+                          "id": "dfc377c0-1851-4e5b-965f-dde6e332ae0f",
+                          "inline": null,
+                          "size": 12,
+                          "content": {
+                            "plugin": {
+                              "name": "ory/editor/core/content/slate",
+                              "version": "0.0.1"
+                            },
+                            "state": {
+                              "serialized": {
+                                "nodes": [
+                                  {
+                                    "kind": "block",
+                                    "type": "PARAGRAPH/PARAGRAPH",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "Some upcoming events"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "d21b2e14-d6fc-499c-b1ea-6a5afe650cc4",
+              "cells": [
+                {
+                  "id": "5889c309-fac0-460e-a651-37d70e568568",
+                  "inline": null,
+                  "size": 12,
+                  "layout": {
+                    "plugin": {
+                      "name": "ory/editor/additional/layout/box",
+                      "version": "0.0.1"
+                    },
+                    "state": {}
+                  },
+                  "rows": [
+                    {
+                      "id": "736c34a8-80c2-48af-9fb9-d46d8a130d49",
+                      "cells": [
+                        {
+                          "id": "f58523dc-95f1-425c-9285-f488b9170ea9",
+                          "inline": null,
+                          "size": 12,
+                          "content": {
+                            "plugin": {
+                              "name": "ory/editor/core/content/slate",
+                              "version": "0.0.1"
+                            },
+                            "state": {
+                              "serialized": {
+                                "nodes": [
+                                  {
+                                    "kind": "block",
+                                    "type": "HEADINGS/HEADING-TWO",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "CDs"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "6697d2ad-6b0a-41f0-8a1f-357ee31cec02",
+                      "cells": [
+                        {
+                          "id": "1910594b-3b49-4abb-a964-c4e4c767da65",
+                          "inline": null,
+                          "size": 12,
+                          "content": {
+                            "plugin": {
+                              "name": "ory/editor/core/content/slate",
+                              "version": "0.0.1"
+                            },
+                            "state": {
+                              "serialized": {
+                                "nodes": [
+                                  {
+                                    "kind": "block",
+                                    "type": "PARAGRAPH/PARAGRAPH",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "CD1"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "kind": "block",
+                                    "type": "PARAGRAPH/PARAGRAPH",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "CD2"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
