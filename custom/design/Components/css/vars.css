@@ -7,4 +7,4 @@
 }
 
 @custom-selector :--headings h1, h2, h3, h4, h5, h6;
-@custom-media --mobile (width <= 30em);
+@custom-media --mobile (max-width: 30rem);

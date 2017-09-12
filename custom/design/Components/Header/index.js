@@ -9,7 +9,7 @@ const Item = ({ children = [], id, title = 'Without title', active, url }: ItemT
       <li>
         <input type="checkbox" id={id} />
         <label htmlFor={id}>
-          <a className={classNames({ active })} href={url}>{title}</a>
+          {title}
         </label>
         <ul>
           {children.map((child: ItemType) => <Item key={child.id} {...child} />)}
@@ -45,9 +45,6 @@ const Header = ({
         </ul>
       </div>
     </nav>
-    <div className="jazzkitchen-header-content">
-      <Editable id="header" className={`editable-area jazzkitchen-${light ? 'light' : 'dark'}`} />
-    </div>
   </div>
 )
 

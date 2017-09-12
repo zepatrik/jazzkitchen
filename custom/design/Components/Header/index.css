@@ -1,6 +1,8 @@
 @import "../css/vars.css";
 
 .jazzkitchen {
+  width: 100%;
+
   .jazzkitchen-header {
     margin-bottom: 2em;
 
@@ -19,18 +21,48 @@
       user-select: none;
       transition: all ease var(--transform-delay);
       background-color: rgba(0, 0, 0, 0.5);
+      white-space: nowrap;
+      width: 100%;
 
       .jazzkitchen-nav-inner {
+        width: 100%;
+
         ul {
+          max-width: 90%;
           display: flex;
           justify-content: flex-start;
-          margin: 0 var(--side-space);
+          margin: 0 auto;
 
-          li {
+          label {
+            padding-right: 1.5em !important;
+          }
+
+          input:checked ~ label::after {
+            transform: rotate(-90deg);
+          }
+
+          label::after {
+            content: "chevron_right";
+            font-family: "Material Icons";
+            position: absolute;
+            transform: rotate(90deg);
+            color: var(--grey500);
+            line-height: 1em;
+            font-size: 1.1em;
+            background-color: var(--grey300);
+            border-radius: 100%;
+            z-index: 1;
+            font-feature-settings: 'liga', 'clig';
+            font-variant-ligatures: common-ligatures;
+            margin: 0.3em 0.2em 0 0;
+            transition: transform 0.25s ease-in-out;
+          }
+
+          & > li {
             display: inline;
             margin: 0 0.1em;
 
-            a {
+            a, label {
               color: white;
               text-decoration: none;
               transition: all var(--transform-delay);
@@ -44,7 +76,28 @@
               }
             }
 
-            a.active, &:first-child a {
+            ul {
+              flex-direction: column;
+              display: none;
+              margin: 0;
+              position: absolute;
+              background-color: rgba(0, 0, 0, 0.5);
+              z-index: 4;
+
+              li a {
+                display: block;
+              }
+            }
+
+            input:checked ~ ul {
+              display: flex;
+            }
+
+            input[type=checkbox] {
+              display: none;
+            }
+
+            a.active {
               background-color: var(--design-color);
               font-weight: 400;
             }
@@ -60,7 +113,19 @@
     }
 
     .jazzkitchen-nav-inner ul {
-      margin: 0 var(--side-space-mobile)
+      margin: 0;
+      flex-direction: column;
+
+      li {
+        a {
+          display: block;
+        }
+
+        ul {
+          position: relative;
+          background-color: initial;
+        }
+      }
     }
   }
 }
